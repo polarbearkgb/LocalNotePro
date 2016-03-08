@@ -1,0 +1,89 @@
+
+
+
+.container {
+    background-color: cornflowerblue;
+    padding: 15px;
+}
+
+#noteBlockNew {
+    background: rgba(128, 128, 128, 0.5);
+  display: inline;
+    float: left;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+    height: 150px;
+    width: 150px;
+    min-height: 150px;
+    min-width: 150px;
+    margin: 40px 20px 40px 20px;
+}
+
+#noteBlockNew:hover {
+    background: rgba(106, 199, 230, 0.5);
+    display: inline;
+    float: left;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+    height: 150px;
+    width: 150px;
+    min-height: 150px;
+    min-width: 150px;
+    margin: 40px 20px 40px 20px;
+}
+
+.noteBlock {
+    background: rgba(128, 128, 128, 0.5);
+    display: inline;
+    float: left;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+    height: 150px;
+    width: 150px;
+    min-height: 150px;
+    min-width: 150px;
+    margin: 40px 20px 40px 20px;
+    overflow: hidden;
+
+}
+.noteBlock:hover{
+    background: rgba(255, 255, 0, 0.5);
+    display: inline;
+    float: left;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+    height: 150px;
+    width: 150px;
+    min-height: 150px;
+    min-width: 150px;
+    margin: 40px 20px 40px 20px;
+    overflow: hidden;
+
+}
+
+.modal-body {
+
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 15px;
+}
+
+.fitIt {
+
+    width: auto;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+}
+
